@@ -59,3 +59,7 @@ def is_prime(n):
         if n % i == 0:
             return False
     return True
+
+def subtract_numbers(a, b):
+    """Returns the difference of two numbers."""
+    return a - b
