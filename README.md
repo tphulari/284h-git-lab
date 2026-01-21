@@ -182,3 +182,7 @@ ________________________________________
 Submission
 
 Submit the link to your forked GitHub repository on Canvas. Each partner should submit individually.
+
+Description of the Lab:
+This lab is supposed to help us get familiar with Git to prepare us for our software project. 
+
