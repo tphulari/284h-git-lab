@@ -50,6 +50,7 @@ class TestUtils(unittest.TestCase):
     
 if __name__ == '__main__':
     unittest.main()
+    
 import unittest
 from src.git_lab import add_numbers
 
