@@ -63,3 +63,7 @@ def is_prime(n):
 def subtract_numbers(a, b):
     """Returns the difference of two numbers."""
     return a - b
+
+def multiply_numbers(a, b):
+    """Returns the difference of two numbers."""
+    return a * b

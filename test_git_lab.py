@@ -5,7 +5,8 @@ from git_lab import (
     is_palindrome,
     calculate_triangle_area,
     is_prime,
-    subtract_numbers
+    subtract_numbers,
+    multiply_numbers
 )
 import math
 
@@ -51,6 +52,10 @@ class TestUtils(unittest.TestCase):
     def test_subtract_numbers(self):
         self.assertEqual(subtract_numbers(5, 3), 2)
         self.assertEqual(subtract_numbers(0, 7), -7)
+
+    def test_multiply_numbers(self): 
+        self.assertEqual(multiply_numbers(2, 3), 6) 
+        self.assertEqual(multiply_numbers(-1, 1), -1)
 
 if __name__ == '__main__':
     unittest.main()
