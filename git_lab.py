@@ -61,4 +61,4 @@ def is_prime(n):
     return True
 def add_numbers(a, b):
     """Returns the correct sum of two numbers."""
-    return a * b
+    return a + b
